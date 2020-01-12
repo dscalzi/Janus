@@ -2,6 +2,10 @@
 
 Janus allows you to setup a simple file server for local testing.
 
+### Requirements
+
+* Node.js 12
+
 ## Usage
 
 1. Clone the project
@@ -14,7 +18,7 @@ Janus allows you to setup a simple file server for local testing.
 
 Your file server is located at C:/MockFileServer. There is one file at that location, LibraryFile.jar
 
-```dotenv
+```properties
 SERVER_PORT=8080
 BASE_PATH=C:/MockFileServer
 ```

@@ -16,6 +16,7 @@ app.get('*', (req, res) => {
     }
 })
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const server = app.listen(SERVER_PORT, () => {
     console.log(`Janus started with base path ${BASE_PATH} on port ${SERVER_PORT}`)
 })

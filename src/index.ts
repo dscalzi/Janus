@@ -8,7 +8,7 @@ const app = express()
 const SERVER_PORT = process.env.SERVER_PORT || '8080'
 const BASE_PATH = process.env.BASE_PATH
 
-app.get('*', (req, res) => {
+app.get(/(.*)/, (req, res) => {
     if (/\.\.\/?/.test(req.url)) {
         res.sendStatus(403)
     } else {

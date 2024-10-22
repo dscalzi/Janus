@@ -9,10 +9,11 @@ const SERVER_PORT = process.env.SERVER_PORT || '8080'
 const BASE_PATH = process.env.BASE_PATH
 
 app.get(/(.*)/, (req, res) => {
-    if (/\.\.\/?/.test(req.url)) {
+    const decoded = decodeURI(req.url)
+    if (/\.\.\/?/.test(decoded)) {
         res.sendStatus(403)
     } else {
-        res.download(`${BASE_PATH}${req.url}`)
+        res.download(`${BASE_PATH}${decoded}`)
     }
 })
 

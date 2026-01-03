@@ -22,15 +22,15 @@
   },
   "homepage": "https://github.com/dscalzi/Janus#readme",
   "dependencies": {
-    "dotenv": "^16.4.5",
-    "express": "^5.0.1"
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1"
   },
   "devDependencies": {
-    "@stylistic/eslint-plugin-ts": "^2.9.0",
-    "@types/express": "^5.0.0",
-    "eslint": "^9.13.0",
-    "rimraf": "^6.0.1",
-    "typescript": "^5.6.3",
-    "typescript-eslint": "^8.9.0"
+    "@stylistic/eslint-plugin": "^5.6.1",
+    "@types/express": "^5.0.6",
+    "eslint": "^9.39.2",
+    "rimraf": "^6.1.2",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.51.0"
   }
 }

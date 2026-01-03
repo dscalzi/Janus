@@ -4,7 +4,7 @@ Janus allows you to setup a simple file server for local testing.
 
 ### Requirements
 
-* Node.js 18
+* Node.js 22
 
 ## Usage
 
